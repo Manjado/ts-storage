@@ -31,5 +31,7 @@ const basket = new Basket('basket', storage);
 // router.addRoute({ name: 'frontend', renderFunction: () => console.log('frontend') });
 // router.addRoute({ name: 'backend', renderFunction: () => console.log('backend') });
 
+basket.addToBasket({ id: '1', name: 'Test', price: 2, quantity: 2 });
+
 window.basket = storage;
 export {};
